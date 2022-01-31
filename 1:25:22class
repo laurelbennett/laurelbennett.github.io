@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> About Me </title>
+  </head>
+  <body>
+    <p id="top">This is the top</p>
+    <p class ="test">Test</p>
+    <p>Test</p>
+    <img src="img/littlelaurel" alt= "me as a little kid"
+    <ol>
+      <li>Item1</li>
+      <li>Item2</li>
+    </ol>
+    <!-- comment -->
+    <ul>
+      <li>Item1</li>
+      <li>Item1</li>
+    </ul>
+      <a href="www.google.com"> Google Link </a>
+      <br>
+        <a href="#top"> back to top </a>
+      </br>
+  </body>
+</html>
