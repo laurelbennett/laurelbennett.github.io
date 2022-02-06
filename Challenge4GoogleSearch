@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Challenge 4: A Google Search Page</title>
+  <style>
+      h4 {
+    font: 18px Arial, Geneva, Helvetica, sans-serif;
+    margin-bottom: -15px;
+          }
+      h3 {
+    font: 20px Arial, Geneva, Helvetica, sans-serif;
+    margin-top: -15px;
+    margin-bottom: -10px;
+        }
+      h5 {
+        font: 10px Arial, Geneva, Helvetica, sans-serif;
+        margin-bottom: 15px;
+          }
+      p {
+        font: 14px Arial, Geneva, Helvetica, sans-serif;
+        margin-top: 15px
+        }
+  </style>
+
+</head>
+<body>
+  <h2><u>Challenge 4: A Google Search Page</u></h2>
+  <h1>Atlas Institute</h1>
+    <h5>https://www.colorado.edu > atlas </h5>
+      <h3><a href = https://www.colorado.edu/atlas/> ATLAS Institute | University of Colorado Boulder </a> </h3>
+        <p>ATLAS is an interdisciplinary institute for radical creativity and invention. We transform ingenious ideas into reality through research, ...</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><tc><h4><a href= https://www.colorado.edu/atlas/academics/grad/> Graduate Degreees in Creative ... </a></h4></tc></td>
+      <td><tc><h4><a href= https://www.colorado.edu/atlas/about-atlas> About</a></h4></tc></td>
+    </tr>
+    <tr>
+      <td><tc><p> Radically interdisciplinary, <br> ATLAS graduate programs nurture ... </p></tc></td>
+      <td><tc><p>ATLAS is an interdisciplinary<br>institute for radical creativity and ...</p></tc></td>
+    </tr>
+    <tr>
+      <td><tc><h4><a href= https://www.colorado.edu/atlas/academics > Academics </a></h4></td>
+      <td><h4><a href= https://www.colorado.edu/atlas/academics/undergraduate>Undergraduate Programs</a></h4></td>
+    </tr>
+    <tr>
+      <td><p>Granted through the College of <br> Engineering and Applied ... </p></td>
+      <td><p>Awarded through the College of <br> Engineering and Applied ...</p></td>
+    </tr>
+    <tr>
+      <td><h4><a href= https://www.colorado.edu/atlas/faculty> Faculty</a></h4></td>
+      <td><h4><a href= https://www.colorado.edu/atlas/research-creative>Research + Creative</a></h4></td>
+    </tr>
+    <tr>
+      <td><p> Lecturer, co-chair Board of Advisors • <br> DESIGN, AR/VR ... </p></td>
+      <td><p>Check out ATLAS Research <br> Showcase 2020.</p></td>
+    </tr>
+  </tbody>
+</table>
+
+      <h5>https://www.colorado.edu > innovate > atlas-institute </h5>
+        <h3><a href= https://www.colorado.edu/innovate/atlas-institute> ATLAS Institute | Innovation & Entrepreneurship - University of ... </a> </h3>
+          <p>Resource that sponsors diverse interdisciplinary academic and research programs, challenging community members to explore, innovate, create and design well ...</p>
+      <h5>https://www.linkedin.com > school > atlas-cu-boulder
+        <h3><a href= https://www.linkedin.com/school/atlas-cu-boulder/>ATLAS Institute at CU Boulder Employees, Location, Alumni</a></h3>
+          <p>ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas<br>become reality. · ATLAS Institute at CU Boulder. View all open ...</p>
+      <h5>https://typemoon.fandom.com > wiki > Atlas</h5>
+        <h3><a href= https://typemoon.fandom.com/wiki/Atlas>Atlas | TYPE-MOON Wiki | Fandom</a></h3>
+          <p>It is an institute focused on the study and development of alchemy, but its members broke off<br> from the mainstream modern practice of alchemy that originated in ...</p>
+            <p><a href=https://typemoon.fandom.com/wiki/Atlas#External_Relationships>External Relationships|</a><a href=https://typemoon.fandom.com/wiki/Atlas#Alchemist_of_Atlas>Alchemist of Atlas|</a><a href=https://typemoon.fandom.com/wiki/Atlas#Activities>Activities|</a><a href= https://typemoon.fandom.com/wiki/Atlas#Headquarters>Headquarters</a></p>
+      <h5>https://www.internationalaffairshouse.org</h5>
+        <h3><a href= https://www.internationalaffairshouse.org/>Atlas Institute for Internation Affaris: Home</a><h3>
+          <p>Atlas Institute for International Affairs - The Harmony of Opposite Tensions. ... International<br> Affairs. for. Titan, Risk Analysis & Insights, News, ...
+</html>
