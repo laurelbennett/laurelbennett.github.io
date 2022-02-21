@@ -1,0 +1,79 @@
+body {
+  background-color: lightsalmon;
+}
+.hr-class {
+  width:60%;
+}
+hr {
+  color:pink;
+  width:25%;
+  height: 2px;
+}
+
+h1 {
+    font-size: 300%;
+    margin-bottom: -5px;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+    font-variant-ligatures: normal;
+    letter-spacing: 5px;
+    color: gold;
+    text-shadow: 2px 2px white
+  }
+
+h6 {
+  font: 14px "Geneva", sans-serif;
+    color: green;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  a:link{
+    color:pink;
+    text-shadow: .5px .5px white;
+  }
+
+
+a:hover{
+  color: gold;
+}
+a:visited{
+  color: white;
+}
+p {
+  font-family:"Helvetica Neue", "Arial", sans-serif;
+  margin-bottom: -5px;
+  font-style:italic;
+  color: ghostwhite ;
+    }
+
+    h1::before {
+      transform: scaleX(0);
+      transform-origin: bottom right;
+    }
+
+    h1:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    h1::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 2; right: 2; bottom: 2; left: 2;
+      inset: 0 0 0 0;
+      background: LightPink;
+      z-index: -1;
+      transition: transform .5s ease;
+    }
+
+    h1 {
+      position: relative;
+      font-size: 50px;
+    }
+
+html {
+      block-size: 100%;
+      inline-size: 100%;
+    }

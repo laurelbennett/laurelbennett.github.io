@@ -1,0 +1,90 @@
+p {
+  color: mediumorchid;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#test-id-1 {
+  color:olive;
+}
+
+.test-class {
+  text-shadow: 2px 2px hotpink;
+}
+
+.fancy-button {
+  color: white;
+  background-color: hotpink;
+  font-size: 30px;
+  padding: 20px 25px;
+  font-family: "Snell Roundhand", cursive;
+  border-radius: 28px;
+  transition: background-color 250ms ease-in-out;
+  padding: 2s ease-in-out;
+  margin-left: 0px;
+  }
+
+
+  .fancy-button:hover {
+    background-color: lightblue;
+    padding-left: 100px;
+  }
+
+a:hover {
+  color: lightgreen;
+}
+
+p::first-letter {
+  font-size: 250%;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: "Impact", fantasy;
+  font-weight: 100;
+}
+h1:hover {
+  color: linen;
+}
+
+body {
+  background-color: LightPink;
+}
+
+h2 {
+  color: mediumvioletred;
+  font-family: "American Typewriter", serif;
+  font-weight: 150;
+  font-style:italic;
+}
+
+    h2::before {
+      transform: scaleX(0);
+      transform-origin: bottom right;
+    }
+
+    h2:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    h2::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 2; right: 2; bottom: 2; left: 2;
+      inset: 0 0 0 0;
+      background: yellow;
+      z-index: -1;
+      transition: transform .5s ease;
+    }
+
+    h2 {
+      position: relative;
+      font-size: 40px;
+    }
+
+    /* html {
+      block-size: 100%;
+      inline-size: 100%;
+    }
