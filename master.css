@@ -1,0 +1,137 @@
+@media screen and (max-width: 400px) {
+  .firstbox {
+    background-color: orange;
+  }
+
+  .toc {
+    background-color: orange;
+  }
+
+  body {
+    background-color: orange;
+  }
+
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+  .content {
+    background-color: orange;
+    text-align: center;
+  }
+
+  .container {
+    display:grid;
+    background-color: orange;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  a:link{
+    color:white;
+    text-shadow: .5px .5px hotpink;
+    text-decoration: none;
+    margin-bottom:-5px;
+  }
+  a:hover{
+  color: purple;
+  }
+  a:visited{
+  color: hotpink;
+  }
+
+.header {
+  font-family: 'Ranchers', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px gold;
+  letter-spacing: 3px;
+}
+}
+}
+  p {
+  background-color: lightsalmon;
+  }
+
+
+/* DESKTOP VIEW:*/
+
+@media screen and (min-width: 401px) {
+.header {
+  grid column: 1 / 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px gold;
+  letter-spacing: 3px;
+}
+
+body {
+  background-color: orange;
+}
+}
+.firstbox {
+  background-color: orange;
+  grid-row: 3 / 5;
+  grid-column: 3 / 5;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: white;
+}
+
+
+.toc {
+  background-color: orange;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: white;
+  grid-row: 1 / 5;
+  grid-column: 2 / 5;
+}
+
+.content {
+  background-color: orange;
+  grid-row: 1 / 5;
+  grid-column: 4 / 5;
+}
+
+.container {
+  display:grid;
+  background-color: orange;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 150px;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+  width = "1500";
+  height = "500";
+}
+
+.header {
+  font-family: 'Ranchers', cursive;
+  font-size: 50px;
+}
+a:link{
+  color:white;
+  text-shadow: .5px .5px hotpink;
+  text-decoration: none;
+  margin-bottom:-5px;
+}
+a:hover{
+color: purple;
+}
+a:visited{
+color: hotpink;
+}
+
+}
+p {
+font-family: 'Encode Sans Condensed', sans-serif;
+color: white;
+}
+}
