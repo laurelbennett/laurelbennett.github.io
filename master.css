@@ -1,20 +1,41 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 449px) {
+
+.header{
+  grid column: 1 / 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px gold;
+  letter-spacing: 3px;
+}
+}
+
   .firstbox {
     background-color: orange;
   }
 
   .toc {
     background-color: orange;
+    font-family:'Quicksand', sans-serif;
+    color: white;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
   }
 
   body {
     background-color: orange;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: bold;
   }
 
 .image {
   position: relative;
   text-align: center;
   color: white;
+  width = "450";
+  height = "400";
 }
   .content {
     background-color: orange;
@@ -32,14 +53,21 @@
     text-shadow: .5px .5px hotpink;
     text-decoration: none;
     margin-bottom:-5px;
+    font-family: 'Quicksand', sans-serif;
   }
   a:hover{
-  color: purple;
+  color: gold;
   }
   a:visited{
-  color: hotpink;
+  color: orange;
   }
-
+  h1:hover{
+    flex:1;
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
 .header {
   font-family: 'Ranchers', cursive;
   position: absolute;
@@ -49,18 +77,52 @@
   text-shadow: 3px 3px gold;
   letter-spacing: 3px;
 }
+
+button {
+    color: white;
+    background-color: hotpink;
+    font-size: 25px;
+    padding: 1px 15px;
+    font-family: "Snell Roundhand", cursive;
+    border-radius: 20px;
+    transition: background-color 250ms ease-in-out;
+    padding: 2s ease-in-out;
+    border: none;
+
 }
+.smallbutton {
+  display: inline-block;
+  background-color: lightsalmon;
+        border-radius: 10px;
+        border: 4px double pink;
+        color: gold;
+        text-align: center;
+        font-size: 10px;
+        font-style: italic;
+        padding: 10px;
+        width: auto;
+}
+}
+}
+
+h3 {
+  font-family:'Ranchers', sans-serif;
+  color: white;
+  text-shadow: 2px 2px gold;
+  letter-spacing: 3px;
+  font-size: 30px;
 }
   p {
   background-color: lightsalmon;
+  font-family: 'Quicksand', sans-serif;
   }
 
 
 /* DESKTOP VIEW:*/
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 450px) {
 .header {
-  grid column: 1 / 5;
+  grid column: 1 / 2;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,29 +133,28 @@
 
 body {
   background-color: orange;
-}
-}
-.firstbox {
-  background-color: orange;
-  grid-row: 3 / 5;
-  grid-column: 3 / 5;
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
+  font-weight: bold;
+}
 }
 
 
 .toc {
   background-color: orange;
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family:'Quicksand', sans-serif;
   color: white;
-  grid-row: 1 / 5;
-  grid-column: 2 / 5;
+  grid-row: 1 / 2;
+  grid-column: 2 / 2;
 }
 
 .content {
   background-color: orange;
-  grid-row: 1 / 5;
-  grid-column: 4 / 5;
+  font-family: 'Quicksand', sans-serif;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  margin-left: 50px;
+  margin-right:50px;
 }
 
 .container {
@@ -101,14 +162,14 @@ body {
   background-color: orange;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 150px;
+  gap: 100px;
 }
 
 .image {
   position: relative;
   text-align: center;
   color: white;
-  width = "1500";
+  width: auto;
   height = "500";
 }
 
@@ -121,17 +182,63 @@ a:link{
   text-shadow: .5px .5px hotpink;
   text-decoration: none;
   margin-bottom:-5px;
+  font-family: 'Quicksand', sans-serif;
 }
 a:hover{
-color: purple;
+color: gold;
 }
 a:visited{
-color: hotpink;
+color: orange;
+}
+
+h1:hover{
+  flex:1;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
 }
 
 }
 p {
-font-family: 'Encode Sans Condensed', sans-serif;
-color: white;
+  font-family:'Quicksand', sans-serif;
+  color: white;
+}
+
+
+h3 {
+  font-family:'Ranchers', sans-serif;
+  color: white;
+  text-shadow: 2px 2px gold;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+button {
+    color: white;
+    background-color: hotpink;
+    font-size: 25px;
+    padding: 1px 15px;
+    font-family: "Snell Roundhand", cursive;
+    border-radius: 20px;
+    transition: background-color 250ms ease-in-out;
+    padding: 2s ease-in-out;
+    border: none;
+
+}
+
+.smallbutton {
+  display: inline-block;
+  background-color: lightsalmon;
+        border-radius: 10px;
+        border: 4px pink;
+        color: gold;
+        text-align: center;
+        font-size: 10px;
+        font-style: italic;
+        padding: 10px;
+        width: auto;
+}
+}
 }
 }

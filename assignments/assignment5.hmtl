@@ -3,15 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Assignment5</title>
+    <link rel="stylesheet" href="master.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body style="background-color:pink;">
-    <h2>Assignment 5</h2>
-    <h2><u>Table of Contents</u></h2>
-      <a href=#C1>Challenge 1</a><br>
-      <a href=#C2>Challenge 2</a><br>
-      <a href=#C3>Challenge 3</a><br>
-      <a href=#C4>Challenge 4</a><br>
-      <a href=#C5>Challenge 5</a>
+  <body>
 <p>Something that I fixed for this week's assignment is putting all of the <br>challenges on one page!</p>
 
 
