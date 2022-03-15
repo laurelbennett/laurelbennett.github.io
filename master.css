@@ -1,4 +1,4 @@
-@media screen and (max-width: 449px) {
+@media screen and (max-width: 430px) {
 
 .header{
   position: absolute;
@@ -54,17 +54,20 @@
   }
   }
   a:visited{
-  color: gold;
+  color: orange;
+  }
+  a:hover{
+    color: gold;
   }
   h1:hover{
     flex:1;
-    color: orange;
+    color: gold;
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease-out;
   }
 .header {
-  font-family: 'Ranchers', cursive;
+  font-family: 'Fascinate Inline', cursive;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -76,10 +79,10 @@
 button {
     color: white;
     background-color: hotpink;
-    font-size: 45px;
+    font-size: 45%;
     padding: 5px 20px;
     font-family: "Snell Roundhand", cursive;
-    border-radius: 20px;
+    border-radius: 20%;
     transition: background-color 250ms ease-in-out;
     padding: 2s ease-in-out;
     border: none;
@@ -92,7 +95,7 @@ button {
         border: 4px double pink;
         color: gold;
         text-align: center;
-        font-size: 30px;
+        font-size: 30%;
         font-style: italic;
         padding: 10px;
         width: auto;
@@ -101,17 +104,18 @@ button {
 }
 
 h3 {
-  font-family:'Ranchers', sans-serif;
+  font-family: 'Fascinate Inline', cursive;
   color: white;
   text-shadow: 2px 2px gold;
   letter-spacing: 3px;
-  font-size: 30px;
+  font-size: 30%;
 }
   p {
-  background-color: lightsalmon;
   font-family: 'Quicksand', sans-serif;
+  font-color: white;
   }
 
+}
 
 /* DESKTOP VIEW:*/
 
@@ -168,7 +172,7 @@ body {
 }
 
 .header {
-  font-family: 'Ranchers', cursive;
+  font-family: 'Fascinate Inline', cursive;
   font-size: 50px;
 }
 a:link{
@@ -187,7 +191,7 @@ color: orange;
 
 h1:hover{
   flex:1;
-  color: orange;
+  color: gold;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease-out;
@@ -201,7 +205,7 @@ p {
 
 
 h3 {
-  font-family:'Ranchers', sans-serif;
+  font-family: 'Fascinate Inline', cursive;
   color: white;
   text-shadow: 2px 2px gold;
   letter-spacing: 3px;
@@ -228,11 +232,17 @@ button {
         border: 4px pink;
         color: gold;
         text-align: center;
-        font-size: 10px;
+        font-size: 25px;
         font-style: italic;
         padding: 10px;
         width: auto;
 }
+h1:hover{
+  flex:1;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
 }
 }
 }
