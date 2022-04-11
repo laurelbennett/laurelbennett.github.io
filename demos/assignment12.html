@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 12 Demo -- Quote Machine</title>
+    <script async src="../js/assignment12.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/assignment12.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1> The Daily </h1>
+    <button class = "homebutton"><a href="https://laurelbennett.github.io/">Back to Home!</a></button>
+    <div class="app">
+  <h3>Dog of the Day</h3>
+  <section class="quotes">
+    <img src='' class="quote-text" id="js-quote-text">
+  </section>
+  <section class="controls">
+    <button type="button" id="js-new-quote" class="new-quote button">
+      Click for a Pup
+    </button>
+  </section>
+</div>
+  <div class="container" >
+    <h3>Song of the Day</h3>
+  <div class="row text-center">
+    <div class="col-xs-6 text-right" id="songImage"></div>
+    <div class="col-xs-6 text-left">
+      <p id="song"></p>
+      <p id="artist"></p>
+      <p id="releaseDate"></p>
+      <button class="songbutton" onclick="newRandomSong()"><span>NEW SONG</span></button>
+      <br>
+    </div>
+  </div>
+</div>
+    <p> For this assignment, I changed the random quote generator into a random dog <br>photo generator. I also added a random song generator, so you get your dog of <br> the day and your song of the day!</p>
+  <script src="../js/week12-demo.js" charset="utf-8"></script>
+  <script src="../randomsong.js" charset="utf-8"></script>
+  </body>
+</html>
+
+<!-- https://random-quote-generator.herokuapp.com/api/quotes/random -->
