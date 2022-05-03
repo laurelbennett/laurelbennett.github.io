@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title>Challenge 4: A Google Search Page</title>
   <style>
+      body {
+        background-color: hotpink;
+      }
       h4 {
     font: 18px Arial, Geneva, Helvetica, sans-serif;
     margin-bottom: -15px;
@@ -25,6 +28,7 @@
 
 </head>
 <body>
+  <a href="../projects.html">back to projects</a>
   <h2><u>Challenge 4: A Google Search Page</u></h2>
   <h1>Atlas Institute</h1>
     <h5>https://www.colorado.edu > atlas </h5>

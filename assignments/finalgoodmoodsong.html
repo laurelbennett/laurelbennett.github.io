@@ -2,9 +2,47 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Good Mood Song</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/songcss.css">
+    <title>Silly story generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+
   </head>
   <body>
-
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <ul id="menuList">
+            <li><a href="../about.html"> about </a></li>
+            <li><a href="../projects.html">projects</a></li>
+            <li><a href="../contact.html">contacts</a></li>
+            <li><a href="finalgoodmoodsong.html">song generator</a></li>
+            <li><a href="../index.html">home</a></li>
+          </ul>
+        </nav>
+        <img src="../img/menu.png" class = "menu-icon" onclick="togglemenu()">
+      </div>
+    </div>
+    <h2>Happy Song Generator</h2>
+    <h5>In a bad mood? click below for a song rec! :)</h5>
+    <div class="usuk">
+     <label for="us">US</label>
+     <input id="us" type="radio" name="ukus" value="us" checked="">
+     <label for="uk">UK</label>
+     <input id="uk" type="radio" name="ukus" value="uk">
+   </div>
+    <div>
+      <button class="randomize">today's song</button>
+    </div>
+    <p class="story"></p>
+    <script src = ../js/songgenerator.js charset="utf-8"></script>
+    <script src = ../js/menuformat.js charset="utf-8"></script>
   </body>
 </html>

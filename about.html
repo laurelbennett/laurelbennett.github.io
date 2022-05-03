@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>ABOUT</title>
-    <link rel="stylesheet" href="master.css"
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Laurel</title>
+    <link rel="stylesheet" href="css/pagecss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -18,34 +13,42 @@
 
   </head>
   <body>
-      <div class="image">
-        <img src="img/mecitypark.jpeg" height="300">
-        <div class="header">
-          <h3>about</h3>
-        </div>
+    <div class= "background">
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <ul id="menuList">
+            <li><a href="about.html"> about </a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="contact.html">contacts</a></li>
+            <li><a href="assignments/finalgoodmoodsong.html">song generator</a></li>
+            <li><a href="index.html">home</a></li>
+          </ul>
+        </nav>
+        <img src="img/menu.png" class = "menu-icon" onclick="togglemenu()">
       </div>
-  </div>
-  <center>
-    <div class="smallbutton">
-      <a href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="projects.html">PROJECTS</a>
-      <a href="contact.html">CONTACTS</a>
-    </div>
-    </div>
-    <br>
-    <div class="content">
-        Hi, I'm Laurel! I grew up mostly at West Point, New York. I attend the
+
+      <div class="row">
+        <div class="col-1">
+          <img src="img/aboutmeslay.png" class= "aboutmeslay">
+        </div>
+        <div class="col-2">
+          <p>Hi, I'm Laurel! I grew up mostly at West Point, New York. I attend the
         Leeds School of Business at the University of Colorado, Boulder.
         I'm currently pursuing a Major in Marketing, Minor in Creative Technology
         in design, and Certificate in Ethics & Social Responsibility. I work as a soccer
         coach and am also a member of Pi Beta Phi!
         Right now, my current favorite things to do are yoga, watching <i>The Bachelor, </i>
-        and reading. (Current read: <i> Circe, </i> by Madeline Miller.) I'm also enjoying skiing,
+        and reading. (Current read: <i> Red Mars, </i> by Kim Stanley Robinson.) I'm also enjoying skiing,
         and looking forward to traveling to Amsterdam for a course on New Product
         Development in May!<br>
-      </center>
-    </div>
-  </center>
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src = js/menuformat.js charset="utf-8"></script>
   </body>
 </html>

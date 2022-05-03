@@ -2,14 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My Website</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100&display=swap" rel="stylesheet">
+    <title>Laurel</title>
+    <link rel="stylesheet" href="css/newcss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -18,39 +12,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
 
   </head>
-
   <body>
-    <div class="image">
-      <img src="img/indexbackgroundcropped.png">
+    <div class= "background">
+    <div class="container">
+      <div class="navbar">
+        <nav>
+          <ul id="menuList">
+            <li><a href="about.html"> about </a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="contact.html">contacts</a></li>
+            <li><a href="assignments/finalgoodmoodsong.html">song generator</a></li>
+            <li><a href="index.html">home</a></li>
+          </ul>
+        </nav>
+        <img src="img/menu.png" class = "menu-icon" onclick="togglemenu()">
+      </div>
 
-      <div class="header">
-        <h1>laurel bennett</h1>
-      </div>
-    </div>
-      <div class="container">
-        <div class="toc">
-          <center>
-           <br>
-          <button><p><a href="about.html">ABOUT</a></p></button><br>
-           <br>
-          <button><p><a href="projects.html">PROJECTS</a></p></button><br>
-           <br>
-          <button><p><a href="contact.html">CONTACTS</a></p></button>
-          <br>
-          <button></p><a href="assignments/assignment11.html">Assignment 11</a></p></button>
-          <br>
-          <button></p><a href ="demos/assignment12.html"> Assignment 12</a></p></button>
-          <br>
-          <button></p><a href ="assignments/assignment13.html"> Assignment 13</a></p></button>
-          <br>
-          <button></p><a href ="assignments/assignment14.html"> Assignment 14</a></p></button>
-          <br>
-          <button></p><a href ="newindex.html"> test</a></p></button>
-        </center>
+      <div class="row">
+        <div class="col-1">
+          <h2>laurel bennett</h2>
+          <h3>welcome to my website!</h3>
+
         </div>
-        <div class="content">
-          <img src="img/me.jpeg" width= "425">
+        <div class="col-2">
+          <img src="img/meworkweek.jpeg" class = "meworkweek">
         </div>
       </div>
+      </div>
+      </div>
+
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src = js/menuformat.js charset="utf-8"></script>
   </body>
 </html>
